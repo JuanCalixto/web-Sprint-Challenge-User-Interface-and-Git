@@ -159,31 +159,17 @@ p {
 
 .top-nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
 .top-nav a {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  font-size: 1rem;
   color: black;
   padding: 1rem 0 2rem 0;
   text-decoration: none;
-  margin-left: 1rem;
-  margin-right: 2rem;
-}
-
-.lambda-logo {
-  display: flex;
-  align-items: flex-end;
-  margin-right: 8rem;
-  top: 1rem;
 }
 
 .header-img {
-  display: flex;
   margin-bottom: 2rem;
 }
 
@@ -227,6 +213,45 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+.middle-content .boxes .one {
+  background: teal;
+}
+
+.middle-content .boxes .two {
+  background: gold;
+}
+
+.middle-content .boxes .three {
+  background: cadetblue;
+}
+
+.middle-content .boxes .four {
+  background: coral;
+}
+
+.middle-content .boxes .five {
+  background: crimson;
+}
+
+.middle-content .boxes .six {
+  background: forestgreen;
+}
+
+.middle-content .boxes .seven {
+  background: darkorchid;
+}
+
+.middle-content .boxes .eight {
+  background: hotpink;
+}
+
+.middle-content .boxes .nine {
+  background: indigo;
+}
+
+.middle-content .boxes .ten {
+  background: dodgerblue;
 
 .bottom-content {
   display: flex;
