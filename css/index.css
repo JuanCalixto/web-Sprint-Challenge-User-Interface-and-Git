@@ -252,6 +252,7 @@ p {
 
 .middle-content .boxes .ten {
   background: dodgerblue;
+}
 
 .bottom-content {
   display: flex;
@@ -288,3 +289,38 @@ footer nav a {
 
 /* about.html css */
 
+.mid-section-about {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 0.1rem dotted black;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.mid-section-about section {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border-bottom: 0.1rem dotted black;
+  padding-top: 1rem;
+}
+
+.mid-section-about h2 {
+  margin-top: 1rem;
+}
+
+.mid-section-about section a {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  width: 8rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.lets-work-together {
+  padding: 2rem;
+}
